@@ -1,15 +1,15 @@
 <template>
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    <v-parallax dark src="@/assets/img/bghero1.jpg" height="750">
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Vuetify.js</h1>
+              <h1 class="display-2 font-weight-bold mb-4">VEVU</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur <br />
-                adipisicing elit. Maiores porro voluptatibus <br />
-                delectus nam optio harum!
+                Fazer pagamentos incorporou tres novos processos incriveis: 
+                a facilidade, a rapidez e a seguranca.
+                Entre e use a VEVU para facilitar a sua vida!
               </h1>
               <v-btn
                 rounded
@@ -137,11 +137,11 @@ export default {
       videoId: "i8IvvHJssWE",
       features: [
         {
-          img: require("@/assets/img/icon2.png"),
-          title: "Design Limpo",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/icon5.png"),
+          title: "M-PESA",
+          text: "Faca pagamentos com mpesa usando a VEVU.",
         },
-        {
+       /* {
           img: require("@/assets/img/icon1.png"),
           title: "Dados Seguros",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
@@ -150,7 +150,7 @@ export default {
           img: require("@/assets/img/icon3.png"),
           title: "Código Aberto",
           text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        },
+        },*/
       ],
     };
   },
